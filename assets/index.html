@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html ng-app="Qyer">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=yes" name="format-detection" />
+
+	<link rel="stylesheet" type="text/css" href="css/angular-carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular-touch.min.js"></script>
+	<script type="text/javascript" src="js/angular-carousel.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+	 
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>    
+	
+	<script type="text/javascript">
+	
+	 
+	
+		//	     跳转
+	    function intent(id) {   
+
+	        navigator.intent.demo(id);   
+
+	    }    
+			
+		 
+	</script>
+	
+
+	<title>Demo</title>
+</head>
+<body>
+
+	<div id="top-banner">
+		<ul ng-controller="SlideCtrl" rn-carousel rn-carousel-buffered rn-carousel-indicator>
+		  	<li><img src="img/banner1.png"></li>
+		  	<li><img src="img/banner2.png"></li>
+		  	<li><img src="img/banner3.png"></li>
+		</ul>
+	</div>
+<script type="text/javascript">
+
+
+</script>
+
+	<h2 class="section">热门目的地</h2>
+	<div class="poi-card">
+		<img src="img/poi1.png" />
+		<h3>本季日本樱花之旅行1本季日本樱花之旅行1本季日本樱花之旅行1</h3>
+		<span>1景点</span>
+	</div>
+	<div class="poi-card">
+		<img src="img/poi2.png" />
+		<h3>本季日本樱花之旅行1</h3>
+		<span>13景点</span>
+	</div>
+
+
+	<h2 class="section">热门折扣<a href="#" onclick="intent(255); return false;">全部折扣 &gt;</a></h2>
+	<div class="lm-container">
+		<div class="lm-card">
+			<img src="img/lm1.png" />
+			<label>6999<small> 元起<small></label>
+			<h3>本季日本本樱花之旅樱花之旅行1</h3>
+			<time>2014.06.26结束</time>
+		</div>
+		<div class="lm-card">
+			<img src="img/lm1.png" />
+			<label>6999<small> 元起<small></label>
+			<h3>本季日本樱花之本樱花之旅旅行1</h3>
+			<time>2014.06.26结束</time>
+		</div>
+	</div>
+	<div class="lm-container">
+		<div class="lm-card">
+			<img src="img/lm1.png" />
+			<label>6999<small> 元起<small></label>
+			<h3>本季日本樱花之旅本樱花之旅行1</h3>
+			<time>2014.06.26结束</time>
+		</div>
+		<div class="lm-card">
+			<img src="img/lm1.png" />
+			<label>6999<small> 元起<small></label>
+			<h3>本季日本樱花之旅本樱花之旅行1</h3>
+			<time>2014.06.26结束</time>
+		</div>
+	</div>
+
+
+	<h2 class="section">热门目的地<a href="http://www.w3school.com.cn">全部目的地 &gt;</a></h2>
+
+	<div class="topic-card">
+		<img class="photo" src="img/poi1.png">
+		<img class="avator" src="img/avator1.png">
+		<h3>本季日本樱花之旅行1本季日本樱花之旅行1本季日本樱花之旅行1</h3>
+		<author>大U酱</author>
+		<div>
+			<span class="like">121232123213121</span>
+			<span class="comment">6i321</span>
+		</div>
+	</div>
+	<div class="topic-card">
+		<img class="photo" src="img/poi1.png">
+		<img class="avator" src="img/avator1.png">
+		<h3>本季日本樱花之旅行1本季日本樱花之旅行1本季日本樱花之旅行1</h3>
+		<author>大U酱</author>
+		<div>
+			<span class="like">12</span>
+			<span class="comment">6</span>
+		</div>
+	</div>
+
+
+
+    
+
+</body>
+</html>
