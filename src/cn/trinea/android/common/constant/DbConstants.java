@@ -6,7 +6,8 @@ package cn.trinea.android.common.constant;
  * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2013-10-21
  */
 public class DbConstants {
-
+  
+	//test git
     public static final String       DB_NAME                                       = "trinea_android_common.db";
     public static final int          DB_VERSION                                    = 1;
 
